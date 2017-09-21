@@ -1,0 +1,155 @@
+hist_2016 = popl_2016.iloc[5]
+x_2016=pd.DataFrame(hist_2016)
+x_20166=x_2016.T
+x_201666=x_20166.set_index('Age Group')
+x_2016666=x_201666.T
+x_20166666=x_2016666.drop('Gender')
+x_201666666=x_20166666.sort_values('11-13 Years',ascending=False)
+x_2016666666=x_201666666.iloc[:6]
+x_2016666666
+x_2016_index=x_2016666666.index
+x_2016_index
+x_2016_data = x_2016666666.to_records(index=False).tolist()  
+x_2016_data
+
+hist_2016a = popl_2016.iloc[2]
+x_2016a=pd.DataFrame(hist_2016a)
+x_20166a=x_2016a.T
+x_201666a=x_20166a.set_index('Age Group')
+x_2016666a=x_201666a.T
+x_20166666a=x_2016666a.drop('Gender')
+x_201666666a=x_20166666a.sort_values('6-10 Years',ascending=False)
+x_2016666666a=x_201666666a.iloc[:6]
+x_2016666666a
+x_2016a_index=x_2016666666a.index
+x_2016a_index
+x_2016a_data = x_2016666666a.to_records(index=False).tolist()  
+x_2016a_data
+
+hist_2015 = popl_2015.iloc[5]
+x_2015=pd.DataFrame(hist_2015)
+x_20155=x_2015.T
+x_201555=x_20155.set_index('Age Group')
+x_2015555=x_201555.T
+x_20155555=x_2015555.drop('Gender')
+x_201555555=x_20155555.sort_values('11-13 Years',ascending=False)
+x_2015555555=x_201555555.iloc[:6]
+x_2015555555
+x_2015_index=x_2015555555.index
+x_2015_index
+x_2015_data = x_2015555555.to_records(index=False).tolist()  
+x_2015_data
+
+hist_2015a = popl_2015.iloc[2]
+x_2015a=pd.DataFrame(hist_2015a)
+x_20155a=x_2015a.T
+x_201555a=x_20155a.set_index('Age Group')
+x_2015555a=x_201555a.T
+x_20155555a=x_2015555a.drop('Gender')
+x_201555555a=x_20155555a.sort_values('6-10 Years',ascending=False)
+x_2015555555a=x_201555555a.iloc[:6]
+x_2015555555a
+x_2015a_index=x_2015555555a.index
+x_2015a_index
+x_2015a_data = x_2015555555a.to_records(index=False).tolist()  
+x_2015a_data
+
+
+hist_2014 = popl_2014.iloc[2]
+x_2014=pd.DataFrame(hist_2014)
+x_20144=x_2014.T
+x_201444=x_20144.set_index('Age Group')
+x_2014444=x_201444.T
+x_20144444=x_2014444.drop('Gender')
+x_201444444=x_20144444.sort_values('6-10 Years',ascending=False)
+x_2014444444=x_201444444.iloc[:6]
+x_2014444444
+x_2014_index=x_2014444444.index
+x_2014_index
+x_2014_data = x_2014444444.to_records(index=False).tolist()  
+x_2014_data
+
+hist_2014a = popl_2014.iloc[5]
+x_2014a=pd.DataFrame(hist_2014a)
+x_20144a=x_2014a.T
+x_201444a=x_20144a.set_index('Age Group')
+x_2014444a=x_201444a.T
+x_20144444a=x_2014444a.drop('Gender')
+x_201444444a=x_20144444a.sort_values('11-13 Years',ascending=False)
+x_2014444444a=x_201444444a.iloc[:6]
+x_2014444444a
+x_2014a_index=x_2014444444a.index
+x_2014a_index
+x_2014a_data = x_2014444444a.to_records(index=False).tolist()  
+x_2014a_data
+
+hist_2013 = popl_2013.iloc[2]
+x_2013=pd.DataFrame(hist_2013)
+x_20133=x_2013.T
+x_201333=x_20133.set_index('Age Group')
+x_2013333=x_201333.T
+x_20133333=x_2013333.drop('Gender')
+x_201333333=x_20133333.sort_values('6-10 Years',ascending=False)
+x_2013333333=x_201333333.iloc[:6]
+x_2013333333
+x_2013_index=x_2013333333.index
+x_2013_index
+x_2013_data = x_2013333333.to_records(index=False).tolist()  
+x_2013_data
+
+hist_2013a = popl_2013.iloc[5]
+x_2013a=pd.DataFrame(hist_2013a)
+x_20133a=x_2013a.T
+x_201333a=x_20133a.set_index('Age Group')
+x_2013333a=x_201333a.T
+x_20133333a=x_2013333a.drop('Gender')
+x_201333333a=x_20133333a.sort_values('11-13 Years',ascending=False)
+x_2013333333a=x_201333333a.iloc[:6]
+x_2013333333a
+x_2013a_index=x_2013333333a.index
+x_2013a_index
+x_2013a_data = x_2013333333a.to_records(index=False).tolist()  
+x_2013a_data
+
+##2012: Female data is missing for 11-13 Age group, hence we will only use 6-10 and sort. 
+hist_2012 = popl_2012.iloc[2]
+x_2012=pd.DataFrame(hist_2012)
+x_20122=x_2012.T
+x_201222=x_20122.set_index('Age Group')
+x_2012222=x_201222.T
+x_20122222=x_2012222.drop('Gender')
+x_201222222=x_20122222.sort_values('6-10 Years',ascending=False)
+x_2012222222=x_201222222.iloc[:6]
+x_2012222222
+x_2012_index=x_2012222222.index
+x_2012_index
+x_2012_data = x_2012222222.to_records(index=False).tolist()  
+x_2012_data
+
+hist_2011 = popl_2011.iloc[2]
+x_2011=pd.DataFrame(hist_2011)
+x_20111=x_2011.T
+x_201111=x_20111.set_index('Age Group')
+x_2011111=x_201111.T
+x_20111111=x_2011111.drop('Gender')
+x_201111111=x_20111111.sort_values('6-10 Years',ascending=False)
+x_2011111111=x_201111111.iloc[:6]
+x_2011111111
+x_2011_index=x_2011111111.index
+x_2011_index
+x_2011_data = x_2011111111.to_records(index=False).tolist()  
+x_2011_data
+
+hist_2011a = popl_2011.iloc[5]
+x_2011a=pd.DataFrame(hist_2013a)
+x_20111a=x_2011a.T
+x_201111a=x_20111a.set_index('Age Group')
+x_2011111a=x_201111a.T
+x_20111111a=x_2011111a.drop('Gender')
+x_201111111a=x_20111111a.sort_values('11-13 Years',ascending=False)
+x_2011111111a=x_201111111a.iloc[:6]
+x_2011111111a
+x_2011a_index=x_2011111111a.index
+x_2011a_index
+x_2011a_data = x_2011111111a.to_records(index=False).tolist()  
+x_2011a_data
